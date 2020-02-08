@@ -14,6 +14,11 @@ public class ObstacleSetBehaviour : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        transform.position += transform.forward * (moveSpeed * Time.deltaTime);
+        
+        
+        
+        
+        
+        /*transform.position += transform.forward * (moveSpeed * Time.deltaTime);*/
     }
 }

@@ -19,11 +19,18 @@ public class FloppyBirdMovementBehaviour : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Space))
+        
+        
+        
+        
+        
+        
+        
+        /*if (Input.GetKeyDown(KeyCode.Space))
         {
-            rb.AddForce(Vector3.up * flapForce, ForceMode.VelocityChange);
-            childT.localScale = new Vector3(.75f,1.25f,1f);
+            //rb.AddForce(Vector3.up * flapForce, ForceMode.VelocityChange);
+            //childT.localScale = new Vector3(.75f,1.25f,1f);
         }
-        childT.localScale = Vector3.Lerp(transform.localScale, Vector3.one, Time.deltaTime * 5f);
+        //childT.localScale = Vector3.Lerp(transform.localScale, Vector3.one, Time.deltaTime * 5f);*/
     }
 }

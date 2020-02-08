@@ -20,6 +20,6 @@ public class RestartLevelOnCollisionBehaviour : MonoBehaviour
 
     private void OnCollisionEnter(Collision other)
     {
-        SceneManager.LoadScene(0);
+        //SceneManager.LoadScene(0);
     }
 }
